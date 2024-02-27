@@ -1,0 +1,172 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Segoe UI', sans-serif;
+    height: auto;
+    width: 100%;
+    background-image:url('waves.jpg') ;
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    padding: 10px;
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: aliceblue;
+}
+.navigationLinks{
+    display: flex;
+    flex-grow:1; 
+    list-style: none;
+    margin: 10px;
+
+}
+li{
+    margin-left: 30px;
+}
+li:hover{
+    border-bottom: 1px solid white;
+}
+.SearchComponent{
+    padding: 10px;
+         display: flex;
+        margin: 10px;
+}
+.searchBar{
+    border-radius: 5px;
+}
+.btn{
+    margin-left: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.navbar2{
+    border-top: 1px solid snow;
+    list-style: none;
+    padding: 10px;
+    display:flex ;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+   
+}
+.navbar2 li:hover{
+    border-bottom: 1px solid white;
+}
+
+.flexcontainer {
+    flex-direction: column;
+    padding: 20px;
+    display: flex;
+    align-items: start;
+    justify-content:space-evenly ;
+    height: 50vh; 
+    width: 100%;
+    background-color:ivory;
+
+  }
+  
+  .content {
+    text-align: left;
+    color:black;
+  }
+.content h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.btns > button{
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+.btns > button:hover{
+    border-bottom: 1px solid black;
+}
+.btn2{
+background-color:rgb(64, 162, 227);
+color: wheat;
+}
+.content2{
+ padding-top: 40px;
+   display: flex;
+    align-items: start;
+}
+.laptop {
+    margin:20px;
+    width: 600px;
+    height: 400px;
+    border-radius: 24px;
+}
+.firstcontent{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    padding: 20px;
+    margin:20px;
+    justify-content:space-between ;
+}
+.btn3{
+    padding: 6px;
+    width: fit-content;
+    border-radius: 6px;
+}
+.content3{
+    padding-top: 40px;
+   display: flex;
+    align-items: start;
+}
+
+.jat{
+    padding: 30px;
+   text-align: center;
+   letter-spacing: 2px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width:400px;
+    margin: 10px;
+    padding: 10px;
+    background:white;
+
+}
+.cardtop{
+    margin-bottom: 30px;
+}
+.cardtop > h4{
+    margin: 5px;
+}
+.cardmid{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.cardend{
+    border-top: 1px solid gray;
+    padding: 10px;
+    text-align: end;
+}
+.timecontent{
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+  
+  
+ 
