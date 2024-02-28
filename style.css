@@ -51,8 +51,8 @@ li:hover{
   }
   
   .signin-button {
-    background-color: rgb(94, 64, 227);
-    color: white;
+    background-color: rgb(67, 104, 80);
+    color: bisque;
     border: none;
     margin-left: 9px;
    padding: 10px 20px;
@@ -111,8 +111,8 @@ li:hover{
     border-bottom: 1px solid black;
 }
 .btn2{
-background-color:rgb(94, 64, 227);
-color: wheat;
+background-color:rgb(67, 104, 80);
+color: bisque;
 }
 .content2{
  padding-top: 40px;
