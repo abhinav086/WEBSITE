@@ -32,14 +32,35 @@ li{
 li:hover{
     border-bottom: 1px solid white;
 }
-.SearchComponent{
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px; /* Adjust width as needed */
+
+    overflow: hidden;
+  }
+  
+  input[type="text"] {
+    flex: 1;
     padding: 10px;
-         display: flex;
-        margin: 10px;
-}
-.searchBar{
-    border-radius: 5px;
-}
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  .signin-button {
+    background-color: rgb(94, 64, 227);
+    color: white;
+    border: none;
+    margin-left: 9px;
+   padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+  
+  
 .btn{
     margin-left: 5px;
     padding: 10px;
@@ -90,7 +111,7 @@ li:hover{
     border-bottom: 1px solid black;
 }
 .btn2{
-background-color:rgb(64, 162, 227);
+background-color:rgb(94, 64, 227);
 color: wheat;
 }
 .content2{
@@ -124,24 +145,32 @@ color: wheat;
 }
 
 .jat{
+    color: aliceblue;
     padding: 30px;
    text-align: center;
-   letter-spacing: 2px;
+   letter-spacing: 4px;
 }
 .card{
+    box-shadow: 10px 7px 8px black;
     display: flex;
     flex-direction: column;
     width:400px;
     margin: 10px;
     padding: 10px;
     background:white;
-
+    border-radius: 6px;
 }
 .cardtop{
     margin-bottom: 30px;
 }
-.cardtop > h4{
-    margin: 5px;
+.cardtop > p{
+    color: blueviolet;
+    cursor: pointer;
+}
+.cardtop > h5{
+    padding-top: 5px;
+    padding-bottom: 8px;
+    letter-spacing: 3px;
 }
 .cardmid{
     display: flex;
@@ -154,8 +183,12 @@ color: wheat;
     text-align: end;
 }
 .timecontent{
+    font-size: 14px;
     display: flex;
     flex-direction: column;
+}
+.timecontent >span{
+    color: gray;
 }
 .logo{
     height: 50px;
@@ -163,10 +196,32 @@ color: wheat;
 }
 .cards{
     display: flex;
+    padding: 24px;
     flex-wrap: wrap;
     justify-content: center;
 }
-
+.footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 18vh;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:ivory;
+}
+.footers{
+    margin: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer1{
+    display: flex;
+}
+.footer2{
+    display: flex;
+}
   
   
  
